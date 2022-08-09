@@ -1,0 +1,6 @@
+function functionJugador()
+
+function buscarApellido()
+
+
+

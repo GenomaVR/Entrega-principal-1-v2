@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega - Bernardez complementario</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <!-- HEADER -->
+    <header>
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="./index.html">
+                        <img class="logo-nav-bar" src="#" alt="">
+                    </a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link-edit" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-edit" aria-current="page" href="#">JUGADORES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-edit" aria-current="page" href="#">EQUIPO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-edit" aria-current="page" href="#">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-edit" aria-current="page" href="#">CONTACTO</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <h1 class="titulo">Bienvenido a la busqueda de jugadores de los celtics</h1>
+    <main class="form-signin">
+<div class="buscadores">
+        <div class="botton-turno">
+            <img class="mb-4"
+                src="./logo.png"
+                alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Buscar a tu jugador por nombre</h1>
+
+
+            <button type="button" onclick="buscarJugador()" class="btn btn-primary">Buscar por Nombre</button>
+        </div>
+
+        <div class="botton-turno">
+            <img class="mb-4"
+            src="./logo.png"
+                alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Buscar a tu jugador por Apellido</h1>
+
+
+            <button type="button" onclick="buscarApellido()" class="btn btn-primary">Buscar por Apellido</button>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+<script src="./miarchivojs.js"></script>
+<script src="./functionJugador.js"></script>
+<script src="./funcionapellido.js"></script>
+</body>
+
+</html>
